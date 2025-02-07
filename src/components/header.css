@@ -1,0 +1,29 @@
+.fi-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  position: relative;
+  gap: 5px;
+}
+
+.fi-header {
+  background: linear-gradient(
+    271deg,
+    #1c7adf,
+    #057ed6,
+    #34c1ef,
+    #42d29d,
+    #35c660
+  );
+}
+.fi-header-a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 730px) {
+  .fi-header-title {
+    font-size: large;
+  }
+}
